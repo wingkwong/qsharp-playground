@@ -11,3 +11,10 @@ My Q# Playground
 ```
 dotnet run
 ```
+
+## Create Project Template Manually
+
+```
+dotnet new -i Microsoft.Quantum.ProjectTemplates
+dotnet new console -lang Q#
+```
